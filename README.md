@@ -1,4 +1,4 @@
-# pdf-question-answering
+# PDF-QUESTION-ANSWERING
 Our overall models architecture consists of a sentence selector and a QA model. 
 The sentence selector computes a selection score for each sentence and we will set a threshold value above which only sentences should be taken.
 I had diferent sentence selector for distillbert qa model. You can go through each code in the code section.                                                                    
