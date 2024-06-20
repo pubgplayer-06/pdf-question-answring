@@ -19,15 +19,18 @@ here i had bert embeddings of each sentence using mean pooling and then calculat
 bert+lstm:                                                                                                                                                       
 here i had taken the output of bert and given it to a bidirectional LSTM.                                                                                         
 
-Then for deploying , I had Created and activated the virtual environment:                                                                                        
+
+Then for deploying , I had Created and activated the virtual environment:  
+
 conda create --name pdfqa_env python=3.8                                                                                                                         
-conda activate pdfqa_env                                                                                                                                         
-Install the necessary packages:                                                                                                                                  
-pip install streamlit transformers pytesseract fitz                                                                                                              
-Open a terminal or command prompt in the environment, and run:                                                                                                   
+conda activate pdfqa_env   
+                                                                                                 
+Install the necessary packages: 
+
+pip install streamlit transformers pytesseract fitz     
+
+Open a terminal or command prompt in the environment created, and run:                                                                                                   
  streamlit run app.py --server.fileWatcherType none                                                                                                              
-
+                                                                                                                                                                 
+                                                                                                                                                                 
 This will open the website.Make sure that model saved by running main.ipyb must be in the same directory as app.py
-
-
-
